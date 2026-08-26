@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.smarthr</groupId>
+    <artifactId>smarthr-backend-platform</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>smarthr-backend-platform</name>
+    <description>SmartHR Spring Cloud Platform Parent Module</description>
+
+    <modules>
+        <module>config-server</module>
+        <module>eureka-server</module>
+        <module>api-gateway</module>
+    </modules>
+</project>

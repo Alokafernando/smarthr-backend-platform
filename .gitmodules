@@ -1,0 +1,9 @@
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/Alokafernando/smarthr-config-server.git
+[submodule "eureka-server"]
+	path = eureka-server
+	url = https://github.com/Alokafernando/smarthr-eureka-server.git
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/Alokafernando/smarthr-api-gateway.git
